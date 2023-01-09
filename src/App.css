@@ -1,0 +1,89 @@
+#root {
+  margin: 0;
+  padding: 0 auto;
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
+}
+.App{
+  background-color: rgb(40, 45, 45);
+}
+img{
+  width: 100%;
+}
+
+.card-location{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(20, 22, 22);
+  text-align: center;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.location{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 2rem;
+  color: white;
+}
+.description{
+  text-align: start;
+}
+.search{
+  width: 100%;
+}
+.input{
+  width: 75%;
+  height: 30px;
+  
+}
+.button-search{
+  background-color: rgb(24, 220, 24);
+  color: white;
+  width: 20%;
+}
+.container-button{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  color: white;
+  font-weight: bold;
+}
+.button{
+  height: 40px;
+  font-weight: 600;
+}
+.residents-card{
+  position: relative;
+  margin: 20px;
+  
+}
+.img-residents{
+  width: 100%;
+}
+.residents{
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  width: 100%;
+}
+.container-status{
+  background-color: rgb(32, 30, 30);
+  position: absolute;
+  top: 20px;
+  margin-left: -3px;
+  border-radius: 10px;
+  width: 180px;
+  height: 40px;
+}
+.status{
+  margin-top: -8px;
+  margin-left: 20px ;
+}
+
+@media screen and (max-width: 992px){
+
+
+
+}
